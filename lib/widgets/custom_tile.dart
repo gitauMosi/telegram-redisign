@@ -17,13 +17,12 @@ class CustomTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(bottom: 8),
+      padding: const EdgeInsets.only(bottom: 3, left: 5, top: 0),
       child: ListTile(
         contentPadding: const EdgeInsets.all(0),
         leading: FaIcon(
           icon,
-          color: Colors.red,
-          size: 15,
+          size: 20,
         ),
         title: Text(title),
       ),
